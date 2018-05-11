@@ -1,0 +1,11 @@
+/* pages/components/pages/slideDel/slideDel.wxss */
+.slideDel{
+  width: 100%;
+  height: 100rpx;
+  border-top: 1px solid #CCC8BE;
+}
+.del{
+  background: #FF3B30;
+  width: 80rpx;
+  height: 100%;
+}

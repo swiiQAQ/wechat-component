@@ -1,0 +1,4 @@
+<!--pages/components/pages/score/score.wxml-->
+<view class="score-component">
+  <image wx:for="{{scoreArr}}" data-id="{{index}}"  src="{{item}}" bindtap='updateScore'></image>
+</view>

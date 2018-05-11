@@ -1,0 +1,23 @@
+.index-hd{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60rpx 40rpx 0;
+}
+.index-hd image{
+  width: 86rpx;
+  height: 86rpx;
+}
+.index-desc{
+  text-align: center;
+  margin-top: 20rpx;
+  color: #888888;
+  font-size: 28rpx;
+}
+.index-ct{
+  padding: 0 60rpx;
+}
+.list-item{
+  padding: 40rpx 0;
+}

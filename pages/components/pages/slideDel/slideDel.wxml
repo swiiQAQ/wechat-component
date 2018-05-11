@@ -1,0 +1,6 @@
+<!--pages/components/pages/slideDel/slideDel.wxml-->
+<view class="slideDel" wx:for="{{[1,2,3,4,5]}}" bindtouchmove="touchMoveHandler">
+  <!-- <slot name="before"></slot> -->
+  <view>123</view>
+  <view class="del"></view>
+</view>

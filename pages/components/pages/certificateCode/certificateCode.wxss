@@ -1,0 +1,12 @@
+/* pages/components/pages/certificateCode/certificatecode.wxss */
+.inputContainer{
+  padding: 60rpx;
+  display: flex;
+  justify-content: space-between;
+}
+input.certCode{
+  width: 130rpx;
+  height: 100rpx;
+  border-bottom: 1px solid #CCC8BE;
+  text-align: center;
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "slidedel" : "/pages/components/pages/slideDel/slideDel"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/common/detail-header"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/components",
+      "pages": [
+        "componentRef/score/score",
+        "componentRef/certificateCode/certificateCode",
+        "componentRef/slideDel/slideDel"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "自定义组件",
+    "navigationBarTextStyle": "black"
+  }
+}

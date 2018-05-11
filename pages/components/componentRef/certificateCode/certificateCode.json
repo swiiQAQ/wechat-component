@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "certificatecode" : "/pages/components/pages/certificateCode/certificateCode"
+  }
+}

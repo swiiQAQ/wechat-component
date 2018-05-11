@@ -1,0 +1,6 @@
+<!--pages/components/componentRef/slideDel/slideDel.wxml-->
+<slidedel>
+  <!-- <view slot="before">
+    <view>123</view>
+  </view> -->
+</slidedel>

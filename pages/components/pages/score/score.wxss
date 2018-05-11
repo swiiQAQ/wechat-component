@@ -1,0 +1,5 @@
+/* pages/components/pages/score/score.wxss */
+.score-component image{
+  width: 50rpx;
+  height: 50rpx;
+}

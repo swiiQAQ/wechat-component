@@ -1,0 +1,2 @@
+<!--pages/components/componentRef/certificateCode/certificatecode.wxml-->
+<certificatecode num="{{certificatecode.num}}"></certificatecode>

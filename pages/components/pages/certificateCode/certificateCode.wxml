@@ -1,0 +1,4 @@
+<!--pages/components/pages/certificateCode/certificatecode.wxml-->
+<view class="inputContainer">
+  <input wx:for="{{list}}" data-id="{{index}}" type="number" focus="{{ focusIndex == index ? true : false}}"   class="certCode" bindinput="inputHandler" bindfocus="focusHandler"></input>
+</view>
