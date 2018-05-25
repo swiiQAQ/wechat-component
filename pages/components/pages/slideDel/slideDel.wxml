@@ -1,6 +1,6 @@
 <!--pages/components/pages/slideDel/slideDel.wxml-->
-<view class="slideDel" wx:for="{{[1,2,3,4,5]}}" bindtouchmove="touchMoveHandler">
+<view class="slideDel" data-index="{{index}}" wx:for="{{[1,2,3,4,5]}}" bindtouchmove="touchMoveHandler" bindtouchstart='touchStartHandler' bindtouchend='touchEndHandler'>
   <!-- <slot name="before"></slot> -->
-  <view>123</view>
-  <view class="del"></view>
+  <view style="left:{{moveIndex == index? moveDistance : 0}}rpx; transition: {{moveIndex == index ? transitionStyle : ''}}" class="slideContent">123</view>
+  <view style="width:{{delWidth}}rpx" class="del">{{delText}}</view>
 </view>
