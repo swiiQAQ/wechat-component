@@ -1,4 +1,6 @@
 /* pages/components/pages/slideDel/slideDel.wxss */
+
+/* 组件样式 */
 .slideDel{
   width: 100%;
   height: 100rpx;
@@ -12,7 +14,7 @@
 .slideContent{
   width: 100%;
   height: 98rpx;
-  z-index: 2;
+   z-index: 2; 
   padding: 0 30rpx;
   box-sizing: border-box;
   background: #fff;
@@ -21,7 +23,7 @@
   /* transition: left 0.2s ease-in-out;  */
 }
 .del{
-  z-index: -1;
+   z-index: 1; 
   right: 0;
   background: #FF3B30;
   height: 100rpx;
@@ -29,4 +31,15 @@
   line-height: 100rpx;
   text-align: center;
   color: #fff;
+}
+
+/* 可删减样式 */
+
+.slideContent{
+  display: flex;
+  align-items: center;
+}
+.slideImage{
+  width: 100rpx;
+  margin-right: 30rpx;
 }

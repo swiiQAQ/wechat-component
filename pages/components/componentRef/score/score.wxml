@@ -1,5 +1,5 @@
 <!--pages/components/componentRef/score/score.wxml-->
-<import src="../../../common/detail-header" />
+<import src="/pages/common/detail-header" />
 
 <template is="head" data="{{title: 'score'}}"/>
 <score max="{{score.max}}" score="{{score.score}}"></score> 

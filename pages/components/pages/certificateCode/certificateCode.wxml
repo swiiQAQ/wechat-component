@@ -1,4 +1,14 @@
 <!--pages/components/pages/certificateCode/certificatecode.wxml-->
-<view class="inputContainer">
+
+<!-- <view class="inputContainer">
   <input wx:for="{{list}}" data-id="{{index}}" type="number" focus="{{ focusIndex == index ? true : false}}"   class="certCode" bindinput="inputHandler" bindfocus="focusHandler"></input>
+</view> -->
+<view class="inputContainer">
+  <input focus bindinput='inputHandler' class="pwd_input" type="number" maxlength="{{num}}"></input>
+  <view wx:for="{{list}}" class="certCode" style="width:{{(630-27*num)/num}}rpx">
+    <block wx:if="{{index<inputLength}}">
+        <view wx:if="{{type == 'pwd'}}" class="pwd_dot"></view>
+        <view wx:else>{{inputValueArr[index]}}</view>
+    </block>
+  </view>
 </view>

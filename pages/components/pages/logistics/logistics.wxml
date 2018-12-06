@@ -1,0 +1,6 @@
+<!--pages/components/pages/logistics/logistics.wxml-->
+<view class="transContainer">
+  <view wx:for="{{list}}" class="transItem">
+    {{item.message}}
+  </view>
+</view>

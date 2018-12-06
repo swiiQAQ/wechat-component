@@ -10,7 +10,8 @@
       "pages": [
         "componentRef/score/score",
         "componentRef/certificateCode/certificateCode",
-        "componentRef/slideDel/slideDel"
+        "componentRef/slideDel/slideDel",
+        "componentRef/logistics/logistics"
       ]
     }
   ],

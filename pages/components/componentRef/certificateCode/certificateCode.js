@@ -5,8 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    certificatecode:{
-      num: 4,
+    cf_code:{
+      num: 6,
+      type: 'pwd', //pwd或者number
     }
   },
 

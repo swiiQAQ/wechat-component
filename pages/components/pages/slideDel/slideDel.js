@@ -7,8 +7,22 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    delWidth: String,
-    delText: String
+    list: {
+      type: Object,
+      value: {},
+      observer: function(newVal, oldVal){
+        this.setData({list: newVal});
+      }
+    },
+    delWidth: {
+      type: Number,
+      value: 200
+    },
+    delText: String,
+    height: {
+      type: Number,
+      value: 100
+    }
   },
 
   /**
@@ -65,6 +79,12 @@ Component({
           transitionStyle: 'left 0.2s ease-in-out'
         });
       }
+    },
+    deleteHandler: function(e){
+      var index = e.target.dataset.index;
+      var list = this.data.list;
+      list.splice(index,1);
+      this.setData({list: list});      
     }
   }
 })

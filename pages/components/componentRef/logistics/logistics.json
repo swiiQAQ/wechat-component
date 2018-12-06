@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "logistics": "/pages/components/pages/logistics/logistics"
+  }
+}

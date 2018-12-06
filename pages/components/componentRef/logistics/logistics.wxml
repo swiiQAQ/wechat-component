@@ -1,0 +1,2 @@
+<!--pages/components/componentRef/logistics/logistics.wxml-->
+<logistics list="{{list}}"></logistics>

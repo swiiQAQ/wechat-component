@@ -19,6 +19,10 @@ Page({
        id: 'slideDel',
        name: '滑动删除',
        pages: 'slideDel'
+     },{
+       id: 'logistics',
+       name: '物流信息',
+       pages: 'logistics'
      }
    ]
    

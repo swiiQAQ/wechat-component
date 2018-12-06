@@ -1,0 +1,31 @@
+/* pages/components/pages/logistics/logistics.wxss */
+.transContainer{
+  padding: 50rpx;
+  box-sizing: border-box;
+}
+.transItem{
+  display: flex;
+  align-items: center;
+  padding: 30rpx 60rpx 30rpx;
+  border-left: 2px solid #eee;
+  font-size: 24rpx;
+  position: relative;
+}
+.transItem::before{
+  content: "";
+  width: 20rpx;
+  height: 20rpx;
+  border: 2px solid #eee;
+  border-radius: 50%;
+  position: absolute;
+  left: -18rpx;
+  top: 50%;
+  margin-top: -10rpx;
+  background: #fff;
+}
+.transItem:last-child{
+  border-left: 2px solid #00B26A;
+}
+.transItem:last-child::before{
+  border: 2px solid #00B26A;
+}
